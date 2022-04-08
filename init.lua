@@ -7,3 +7,5 @@ require('lsp-config')
 require('galaxy')
 require('format-config')
 require('indent-config')
+
+require('nvim-cmp')

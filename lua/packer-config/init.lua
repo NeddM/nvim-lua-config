@@ -122,4 +122,31 @@ use "lukas-reineke/indent-blankline.nvim"
 use "lukas-reineke/lsp-format.nvim"
 use "lukas-reineke/format.nvim"
 
+use {
+  'hrsh7th/nvim-cmp',
+  requires = {
+    'L3MON4D3/LuaSnip',
+    'hrsh7th/cmp-nvim-lsp',
+    'hrsh7th/cmp-path',
+    'hrsh7th/cmp-buffer',
+    'f3fora/cmp-spell',
+    'saadparwaiz1/cmp_luasnip'
+  },
+}
+use 'rafamadriz/friendly-snippets'
+use {'onsails/lspkind-nvim'}
+
+use ('Iron-E/nvim-highlite')
+use {
+  'feline-nvim/feline.nvim',
+  requires = {
+    -- 'gitsigns.nvim',
+    'nvim-web-devicons'
+  },
+}
+
 end)
+
+
+
+
