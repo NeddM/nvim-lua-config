@@ -48,5 +48,42 @@ git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ~~~
+
 ---
+
 # Mapeos de teclado
+
+### Funciones importantes:
+* Árbol de directorios: Alt + g
+* Guardado de archivo: Ctrl + s
+* Formatear documento: Alt + a
+* Pestaña anterior: Ctrl + o
+* Pestaña siguiente: Ctrl + p
+* Saltar a palabra: Alt  + y
+* Telescope: Alt + t
+
+### Caracteres rápidos:
+#### Mano izquierda
+* "+": Alt + j
+* "-": Alt + k
+* "*": Alt + m
+* "/": Alt + ,
+* "%": Alt + h
+* "=": Alt + l
+* Esc: Alt + ñ
+* "'": Alt + u
+* '"': Alt + i
+* "$": Alt + o
+
+#### Mano derecha
+* "|": Alt + q
+* "&": Alt + w
+* "{": Alt + a
+* "}": Alt + s
+* "(": Alt + d
+* ")": Alt + f
+* "<": Alt + z
+* ">": Alt + x
+* "[": Alt + c
+* "]": Alt + v
+* "+": Alt + j
