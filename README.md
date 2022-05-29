@@ -58,36 +58,43 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 # Mapeos de teclado
 
 ### Funciones importantes:
-* Árbol de directorios: Alt + g
-* Guardado de archivo: Ctrl + s
-* Formatear documento: Alt + a
-* Pestaña anterior: Ctrl + o
-* Pestaña siguiente: Ctrl + p
-* Saltar a palabra: Alt  + y
-* Telescope: Alt + t
+| **Función**          | **Atajo** |
+|----------------------|-----------|
+| Árbol de directorios | Alt + g   |
+| Guardado de archivo  | Ctrl + s  |
+| Formatear documento  | Alt + a   |
+| Pestaña anterior     | Ctrl + o  |
+| Pestaña siguiente    | Ctrl + p  |
+| Saltar a una palabra | Alt + y   |
+| Telescope            | Alt + t   |
+| On/Off Autopairs     | Alt + p   |
 
 ### Caracteres rápidos:
 #### Mano izquierda
-* "+": Alt + j
-* "-": Alt + k
-* "*": Alt + m
-* "/": Alt + ,
-* "%": Alt + h
-* "=": Alt + l
-* Esc: Alt + ñ
-* "'": Alt + u
-* '"': Alt + i
-* "$": Alt + o
+| **Caracter** | **Atajo** |
+|--------------|-----------|
+| +            | Alt + j   |
+| -            | Alt + k   |
+| *            | Alt + m   |
+| /            | Alt + ,   |
+| %            | Alt + h   |
+| =            | Alt + l   |
+| '            | Alt + u   |
+| "            | Alt + i   |
+| $            | Alt + o   |
+| Esc          | Alt + ñ   |
 
 #### Mano derecha
-* "|": Alt + q
-* "&": Alt + w
-* "{": Alt + a
-* "}": Alt + s
-* "(": Alt + d
-* ")": Alt + f
-* "<": Alt + z
-* ">": Alt + x
-* "[": Alt + c
-* "]": Alt + v
-* "+": Alt + j
+| **Caracter** | **Atajo** |
+|--------------|-----------|
+| \|           | Alt + q   |
+| &            | Alt + w   |
+| {            | Alt + a   |
+| }            | Alt + s   |
+| (            | Alt + d   |
+| )            | Alt + f   |
+| <            | Alt + z   |
+| >            | Alt + x   |
+| [            | Alt + c   |
+| ]            | Alt + v   |
+
