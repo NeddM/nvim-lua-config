@@ -4,7 +4,7 @@ local opts = { noremap = true, silent = true }
 vim.g.mapleader = ' '
 
 -- Árbol
-map('n', '<A-g>', ':NvimTreeToggle<CR>', opts)
+map('n', '<C-m>', ':NvimTreeToggle<CR>', opts)
 
 -- Formato de documento
 map('n', '<C-a>', ':CocCommand prettier.formatFile<CR>', opts)
