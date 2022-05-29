@@ -23,13 +23,15 @@ map('n', '<A-t>', ':Telescope<CR>', opts)
 -- Teclas más usadas con ALT
 map('!', '<A-j>', '+', opts)
 map('!', '<A-k>', '-', opts)
-map('!', '<A-l>', '*', opts)
-map('!', '<A-ñ>', '/', opts)
+map('!', '<A-m>', '*', opts)
+map('!', '<A-,>', '/', opts)
 map('!', '<A-h>', '%', opts)
-map('!', '<A-m>', '=', opts)
+map('!', '<A-l>', '=', opts)
 map('!', '<A-u>', "'", opts)
 map('!', '<A-i>', '"', opts)
 map('!', '<A-o>', '$', opts)
+
+map('n', '<A-ñ>', '<esc>', opts)
 
 map('!', '<A-q>', '|', opts)
 map('!', '<A-w>', '&', opts)
