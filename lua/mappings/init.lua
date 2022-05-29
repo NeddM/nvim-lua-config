@@ -7,7 +7,7 @@ vim.g.mapleader = ' '
 map('n', '<C-m>', ':NvimTreeToggle<CR>', opts)
 
 -- Formato de documento
-map('n', '<C-a>', ':CocCommand prettier.formatFile<CR>', opts)
+map('n', '<C-a>', ':Format<CR>', opts)
 
 -- Guardados y pestañas
 map('n', '<C-s>', ':noa w<CR>', opts)
