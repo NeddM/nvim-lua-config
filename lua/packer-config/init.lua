@@ -22,7 +22,7 @@ use {
 use { "nvim-telescope/telescope-file-browser.nvim" }
 
 -- Coc.nvim
-use {'neoclide/coc.nvim', branch = 'release'}
+-- use {'neoclide/coc.nvim', branch = 'release'}
 
 -- Gestion de archivos tutorial
 use {
