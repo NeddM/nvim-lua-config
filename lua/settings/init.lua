@@ -7,7 +7,7 @@ vim.opt.showcmd = true
 vim.opt.showmode = false
 vim.opt.showmatch = true
 vim.opt.syntax = 'enable'
-vim.opt.showtabline = 4
+vim.opt.showtabline = 2
 vim.opt.laststatus = 2
 vim.opt.ruler = true
 vim.opt.splitright = true
@@ -19,7 +19,7 @@ vim.opt.termguicolors = true
 
 -- Opciones de indentado
 local set = vim.opt
-set.tabstop = 4
-set.softtabstop = 4
-set.shiftwidth = 4
+set.tabstop = 2
+set.softtabstop = 2
+set.shiftwidth = 2
 

@@ -140,6 +140,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\neddy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\git-blame.nvim",
     url = "https://github.com/f-person/git-blame.nvim"
   },
+  ["hlargs.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\neddy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\hlargs.nvim",
+    url = "https://github.com/m-demare/hlargs.nvim"
+  },
   ["hop.nvim"] = {
     config = { "\27LJ\2\nU\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\tkeys\28etovxqpdygfblzhckisuran\nsetup\bhop\frequire\0" },
     loaded = true,
@@ -206,6 +211,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\neddy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
     url = "https://github.com/kyazdani42/nvim-tree.lua"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "C:\\Users\\neddy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
@@ -300,14 +310,14 @@ time([[Defining packer_plugins]], false)
 time([[Config for hop.nvim]], true)
 try_loadstring("\27LJ\2\nU\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\tkeys\28etovxqpdygfblzhckisuran\nsetup\bhop\frequire\0", "config", "hop.nvim")
 time([[Config for hop.nvim]], false)
--- Config for: nvim-tree.lua
-time([[Config for nvim-tree.lua]], true)
-try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
-time([[Config for nvim-tree.lua]], false)
 -- Config for: galaxyline.nvim
 time([[Config for galaxyline.nvim]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\30galaxyline.themes.eviline\frequire\0", "config", "galaxyline.nvim")
 time([[Config for galaxyline.nvim]], false)
+-- Config for: nvim-tree.lua
+time([[Config for nvim-tree.lua]], true)
+try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
+time([[Config for nvim-tree.lua]], false)
 -- Config for: tmux.nvim
 time([[Config for tmux.nvim]], true)
 try_loadstring("\27LJ\2\n¶\1\0\0\4\0\n\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0=\3\a\0025\3\b\0=\3\t\2B\0\2\1K\0\1\0\vresize\1\0\1\31enable_default_keybindings\2\15navigation\1\0\1\31enable_default_keybindings\2\14copy_sync\1\0\0\1\0\1\venable\2\nsetup\ttmux\frequire\0", "config", "tmux.nvim")
