@@ -7,5 +7,7 @@ require('lsp-config')
 require('galaxy')
 require('format-config')
 require('indent-config')
+require('scroll-bar')
+require('cursor-line')
 
 require('nvim-cmp')

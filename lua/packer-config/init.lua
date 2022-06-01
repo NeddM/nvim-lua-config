@@ -9,7 +9,6 @@ use {
     'williamboman/nvim-lsp-installer',
 }
 
-
 -- Tema y colores
 -- use "EdenEast/nightfox.nvim"
 use 'navarasu/onedark.nvim'
@@ -79,6 +78,7 @@ use 'alvan/vim-closetag'
 use 'jiangmiao/auto-pairs'
 use 'tpope/vim-surround'
 
+
 -- TMUX
 use({
     "aserowy/tmux.nvim",
@@ -117,6 +117,9 @@ use 'ap/vim-css-color'
 
 -- Indentado
 use "lukas-reineke/indent-blankline.nvim"
+
+-- Barra de scroll
+use("petertriho/nvim-scrollbar")
 
 -- Formateador
 use "lukas-reineke/lsp-format.nvim"
