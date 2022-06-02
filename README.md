@@ -53,6 +53,12 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ~~~
 
+
+## Instalar las fuentes
+Es necesario instalar una **Nerd Hack font**, para que se puedan ver bien los gráficos y además se vea más chulo.
+
+[Link a las Nerd Fonts](https://www.nerdfonts.com)
+
 ---
 
 # Mapeos de teclado
